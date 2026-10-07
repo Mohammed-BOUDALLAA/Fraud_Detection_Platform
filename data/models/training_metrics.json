@@ -1,0 +1,66 @@
+{
+  "auc_pr": 0.45305934358778976,
+  "auc_roc": 0.8975789529520457,
+  "f1_fraud": 0.4685430463576159,
+  "precision": 0.47852553263442676,
+  "recall": 0.4589685371391502,
+  "confusion_matrix": [
+    [
+      83956,
+      1542
+    ],
+    [
+      1668,
+      1415
+    ]
+  ],
+  "threshold": 0.66,
+  "model_version": "92e8e4a1ba4c2e7a",
+  "dataset": {
+    "provenance": "IEEE-CIS user-provided training CSVs",
+    "synthetic": false,
+    "rows": 590540,
+    "features": 437,
+    "train_end": 413378,
+    "validation_end": 501959,
+    "split": "chronological 70/15/15, timestamp boundaries; preprocessing fit on train only"
+  },
+  "batch_test": {
+    "auc_pr": 0.5023508123558439,
+    "auc_roc": 0.8949071876816241,
+    "f1_fraud": 0.3144455601778798,
+    "precision": 0.20186020812229488,
+    "recall": 0.7109957833279273,
+    "confusion_matrix": [
+      [
+        76831,
+        8667
+      ],
+      [
+        891,
+        2192
+      ]
+    ]
+  },
+  "river_test": {
+    "auc_pr": 0.13557891396054664,
+    "auc_roc": 0.6969057370669745,
+    "f1_fraud": 0.22480030429821224,
+    "precision": 0.2717241379310345,
+    "recall": 0.19169639961076873,
+    "confusion_matrix": [
+      [
+        83914,
+        1584
+      ],
+      [
+        2492,
+        591
+      ]
+    ]
+  },
+  "evaluation": "frozen fusion on held-out temporal test; adaptive benefit not established",
+  "online_warmup_rows": 50000,
+  "best_iteration": 298,
+  "python": "3.13.5"
+}

@@ -1,0 +1,9 @@
+{
+  "provenance": "IEEE-CIS user-provided training CSVs",
+  "synthetic": false,
+  "rows": 590540,
+  "features": 437,
+  "train_end": 413378,
+  "validation_end": 501959,
+  "split": "chronological 70/15/15, timestamp boundaries; preprocessing fit on train only"
+}

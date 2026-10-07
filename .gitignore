@@ -1,0 +1,14 @@
+.venv/
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+data/raw/*.csv
+data/app.db*
+data/models/online_state.pkl
+logs/
+*.csv
+*.parquet
+.idea/
+.env.*
+!.env.example
